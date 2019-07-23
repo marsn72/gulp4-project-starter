@@ -1,3 +1,10 @@
 body{
   background-color: #fefefe;
 }
+a{
+  text-decoration: none;
+}
+.wrap{
+  display: flex;
+  justify-content: flex-start;
+}
