@@ -1,8 +1,9 @@
-body{
-  background-color: #efefef;
+.slider-item{
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ccc;
 }
-body{
-  display: flex;
-  flex-direction: column;
-  color: #4a4a4a;
-}
+
+@import 'libs.scss'
