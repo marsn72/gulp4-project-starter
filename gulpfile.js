@@ -12,7 +12,7 @@ $.path.tasks.forEach(taskPath => {
     require(taskPath)();
 });
 
-$.gulp.task('default', $.gulp.series($.gulp.parallel('pug', 'sass', 'scripts:lib', 'script', 'imgmin:dev'),
+$.gulp.task('default', $.gulp.series($.gulp.parallel('pug', 'sass', 'scripts:lib', 'script', 'imgmin:dev', 'svg'),
     $.gulp.parallel('watch', 'serve')));
 
 $.gulp.task('build', $.gulp.series($.gulp.parallel('pug', 'sass', 'scripts:lib', 'script', 'imgmin:build'),
